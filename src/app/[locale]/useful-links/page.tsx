@@ -155,7 +155,7 @@ export default async function UsefulLinksPage({
         </div>
       </main>
 
-      <Footer />
+      <Footer locale={locale} />
     </>
   );
 }
