@@ -1,0 +1,430 @@
+{
+  "services": {
+    "title": "Hizmetler",
+    "heading": "Gümrük, taşıma ve saha süreçleriniz için tek merkezden koordine edilen hizmetler.",
+    "items": [
+      "İthalat ve ihracat gümrükleme",
+      "Depolama ve antrepo koordinasyonu",
+      "Karayolu ve denizyolu organizasyonu",
+      "Havayolu operasyon planlaması",
+      "Belge ve mevzuat süreç yönetimi",
+      "Operasyonel lojistik danışmanlığı"
+    ]
+  },
+  "quote": {
+    "eyebrow": "Teklif Al",
+    "title": "Operasyon ihtiyacınıza uygun teklif için bize temel bilgileri iletin",
+    "description": "Yük tipi, hedef ülke, taşıma beklentisi ve zaman hassasiyetini paylaşın. Ekibimiz size uygun yönlendirmeyle geri dönüş sağlasın.",
+    "form": {
+      "subjectPrefix": "Teklif Talebi",
+      "title": "Teklif talebi oluşturun",
+      "description": "Formu gönderdiğinizde varsayılan mail uygulamanız açılır ve bilgileriniz hazır bir e-posta olarak gelir.",
+      "buttonLabel": "Teklif Maili Oluştur",
+      "fields": {
+        "company": {
+          "label": "Firma",
+          "placeholder": "Firma adınız"
+        },
+        "name": {
+          "label": "Yetkili Kişi",
+          "placeholder": "Ad Soyad"
+        },
+        "email": {
+          "label": "E-posta",
+          "placeholder": "ornek@mail.com"
+        },
+        "phone": {
+          "label": "Telefon",
+          "placeholder": "+90 ..."
+        },
+        "service": {
+          "label": "Hizmet İhtiyacı",
+          "placeholder": "Gümrükleme, karayolu, denizyolu..."
+        },
+        "message": {
+          "label": "Detay",
+          "placeholder": "Yük ve süreç detaylarını yazın"
+        }
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "İletişim",
+    "title": "Operasyon ihtiyacınızı birlikte planlayalım.",
+    "description": "Sevkiyat yapınız, gümrük süreçleriniz ve ihtiyaç duyduğunuz operasyon modelini bize iletin. Ekibimiz size en uygun akışla dönüş sağlasın.",
+    "form": {
+      "subjectPrefix": "İletişim Talebi",
+      "title": "Bize yazın",
+      "description": "Formu doldurduğunuzda varsayılan mail uygulamanız açılır ve bilgileriniz hazır bir e-posta olarak gider.",
+      "buttonLabel": "Mail Gönder",
+      "fields": {
+        "name": {
+          "label": "Ad Soyad",
+          "placeholder": "Adınızı girin"
+        },
+        "email": {
+          "label": "E-posta",
+          "placeholder": "ornek@mail.com"
+        },
+        "phone": {
+          "label": "Telefon",
+          "placeholder": "+90 ..."
+        },
+        "message": {
+          "label": "Mesaj",
+          "placeholder": "Operasyon ihtiyacınızı yazın"
+        }
+      }
+    },
+    "info": {
+      "emailLabel": "E-posta",
+      "phoneLabel": "Telefon",
+      "addressLabel": "Adres",
+      "addressValue": "İstanbul, Türkiye",
+      "instagramLabel": "Instagram",
+      "instagramValue": "@gennlogistics",
+      "instagramHref": "https://www.instagram.com/gennlogistics/",
+      "linkedinLabel": "LinkedIn",
+      "linkedinValue": "Gen2 Logistics",
+      "linkedinHref": "https://www.linkedin.com/company/genn-logistics/"
+    },
+    "location": {
+      "eyebrow": "Konum",
+      "title": "Metroport Business lokasyonunu harita üzerinden görüntüleyin",
+      "mapTitle": "Metroport Business",
+      "mapQuery": "Metroport Business Istanbul"
+    }
+  },
+  "careers": {
+    "eyebrow": "Kariyer",
+    "title": "Operasyonu büyüten ekibe katılmak isteyenler için açık bir başvuru alanı",
+    "description": "Gümrük operasyonu, müşteri yönetimi, taşıma planlama ve saha koordinasyonu alanlarında güçlü ekip arkadaşları arıyoruz. Aşağıdaki form ile özgeçmiş ve kısa notunuzu bize mail olarak iletebilirsiniz.",
+    "highlights": [
+      "Gümrük operasyon uzmanlığı",
+      "Lojistik planlama",
+      "Müşteri ve partner yönetimi",
+      "Analitik ve sorumluluk bilinci"
+    ],
+    "form": {
+      "subjectPrefix": "Kariyer Başvurusu",
+      "title": "Başvurunuzu mail ile iletin",
+      "description": "Bilgileriniz varsayılan mail uygulamanıza aktarılır. CV dosyanızı açılan mail ekranına ekleyebilirsiniz.",
+      "buttonLabel": "Başvuru Maili Oluştur",
+      "fields": {
+        "fullName": {
+          "label": "Ad Soyad",
+          "placeholder": "Adınızı girin"
+        },
+        "email": {
+          "label": "E-posta",
+          "placeholder": "ornek@mail.com"
+        },
+        "position": {
+          "label": "Pozisyon",
+          "placeholder": "İlgilendiğiniz alan"
+        },
+        "experience": {
+          "label": "Deneyim",
+          "placeholder": "Örn. 4 yıl gümrük operasyonu"
+        },
+        "cv": {
+          "label": "CV",
+          "placeholder": ""
+        },
+        "message": {
+          "label": "Kısa Not",
+          "placeholder": "Kendinizden kısaca bahsedin"
+        }
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "Biz Kimiz",
+    "title": "Gümrük ve lojistik süreçlerini birlikte planlayan bir operasyon ekibiyiz",
+    "description": "Müşterilerimizin ithalat, ihracat, taşıma ve depolama ihtiyaçlarına uygun daha düzenli bir süreç kurmayı hedefliyoruz. Teknik bilgi kadar iletişim ve koordinasyonu da önemsiyoruz.",
+    "slides": [
+      {
+        "eyebrow": "Planlama",
+        "title": "Süreci başlatmadan önce resmi ve operasyonel ihtiyacı netleştiriyoruz",
+        "description": "Belge, taşıma ve zamanlama ayaklarını birlikte değerlendirerek gereksiz belirsizliği azaltmaya çalışıyoruz."
+      },
+      {
+        "eyebrow": "Takip",
+        "title": "İletişim ve koordinasyonu sürecin ayrılmaz parçası olarak görüyoruz",
+        "description": "Müşterinin sürece hakim kalması için düzenli geri bildirim ve net sorumluluk dağılımı benimsiyoruz."
+      }
+    ]
+  },
+  "mission": {
+    "eyebrow": "Amacımız",
+    "title": "Süreçleri daha anlaşılır, daha takip edilebilir ve daha güvenilir hale getirmek",
+    "description": "Her yükte aynı çözümün geçerli olmadığını biliyoruz. Bu nedenle amacımız, ihtiyaca göre planlama yapıp operasyonu gereksiz karmaşadan uzaklaştırmak.",
+    "slides": [
+      {
+        "eyebrow": "Sadelik",
+        "title": "Karmaşık operasyonu daha anlaşılır karar adımlarına bölmek istiyoruz",
+        "description": "Süreç uzadıkça iletişim zayıflamasın diye operasyonu daha okunur bir yapıyla yönetmeyi hedefliyoruz."
+      },
+      {
+        "eyebrow": "Güven",
+        "title": "Müşterinin ne olduğunu bildiği ve ne bekleyeceğini gördüğü bir süreç kurmak istiyoruz",
+        "description": "Belirsizliği azaltan, açık ve tutarlı iletişim kuran bir hizmet dili oluşturmak önceliğimiz."
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Partnerlerimiz",
+    "title": "Süreci güçlendiren iş ortaklıklarıyla daha dengeli operasyon kurguluyoruz",
+    "showcase": {
+      "eyebrow": "Partner Ağı",
+      "title": "Operasyon akışını destekleyen markalar ve iş ortaklıkları",
+      "description": "Bu alan, farklı taşıma ve lojistik hatlarında birlikte çalışılabilecek global ve bölgesel oyuncuları gösteren bir logo duvarı mantığıyla tasarlandı."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "Hakkımızda",
+    "title": "Biz kimiz, neyi hedefliyoruz ve kimlerle çalışıyoruz sorularına net cevaplar",
+    "slides": [
+      {
+        "eyebrow": "Biz Kimiz",
+        "title": "Gümrük ve lojistik süreçlerinde planlama ve koordinasyon desteği sunan bir ekibiz",
+        "description": "Operasyonun teknik tarafını iletişim ve takip disipliniyle birleştirerek daha okunur bir süreç kurmayı hedefliyoruz."
+      },
+      {
+        "eyebrow": "Amacımız",
+        "title": "Karmaşık süreçleri daha sade ve daha güvenilir hale getirmek istiyoruz",
+        "description": "Her yükte aynı kalıbı kullanmadan, ihtiyaca uygun yönlendirme ve kontrollü operasyon akışına odaklanıyoruz."
+      },
+      {
+        "eyebrow": "Partnerlerimiz",
+        "title": "Taşıma ve saha operasyonlarını iş ortaklıklarıyla güçlendiren bir yapı kuruyoruz",
+        "description": "Depolama, taşıma ve dış ticaret bağlantılarında birlikte çalıştığımız çözüm ortaklarıyla süreci destekliyoruz."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Biz Kimiz",
+        "description": "Gümrükleme, dış ticaret ve lojistik süreçlerinde planlama ve koordinasyon desteği sunan bir operasyon ekibiyiz."
+      },
+      {
+        "title": "Amacımız",
+        "description": "Karmaşık süreçleri daha sade, daha takip edilebilir ve daha güvenilir hale getirmek istiyoruz."
+      },
+      {
+        "title": "Partnerlerimiz",
+        "description": "Taşıma, depolama ve saha operasyonlarında birlikte çalıştığımız çözüm ortaklarıyla süreci güçlendiriyoruz."
+      }
+    ]
+  },
+  "discovery": {
+    "eyebrow": "Neden Biz",
+    "title": "Hizmet anlayışımızı anlatan daha anlamlı bir çatı kurduk",
+    "items": [
+      {
+        "title": "Doğru yönlendirme",
+        "description": "Her yük için aynı kalıbı kullanmak yerine ihtiyaca uygun operasyon şekli belirlenir."
+      },
+      {
+        "title": "Net iletişim",
+        "description": "Sürecin farklı aşamalarında taraflar arasındaki iletişimi daha okunur ve düzenli hale getirir."
+      },
+      {
+        "title": "Belge ve süreç disiplini",
+        "description": "Evrak, mevzuat ve planlama tarafında daha sağlam bir operasyon zemini oluşturur."
+      },
+      {
+        "title": "Esnek operasyon desteği",
+        "description": "Taşıma, depolama ve gümrük ihtiyaçlarına göre farklı senaryolara uyum sağlar."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Gümrük ve Lojistik Operasyonları",
+    "title": "Dış ticaret süreçlerinizde doğru planlama ve güvenilir operasyon desteği alın.",
+    "description": "İthalat, ihracat, depolama ve uluslararası taşıma süreçlerinizde ihtiyacınıza uygun operasyon modelini birlikte planlıyoruz. Hedefimiz, süreci karmaşıklaştırmadan daha düzenli, daha takip edilebilir ve daha sağlam hale getirmek.",
+    "primaryCta": "Operasyonu İncele",
+    "secondaryCta": "Teklif Talep Et",
+    "stats": [
+      {
+        "value": "24/7",
+        "label": "İletişim ve süreç koordinasyonu"
+      },
+      {
+        "value": "12+",
+        "label": "Uluslararası hat ve iş ortaklığı ağı"
+      },
+      {
+        "value": "%100",
+        "label": "Dokümantasyon ve süreç takibine odaklı yaklaşım"
+      }
+    ],
+    "floatingLabels": {
+      "top": "Gümrük + Taşıma + Koordinasyon",
+      "bottom": "Mevzuat ve süreç odağı"
+    },
+    "card": {
+      "eyebrow": "Danışmanlık ve planlama",
+      "title": "Her yük için aynı değil, ihtiyaca göre şekillenen operasyon yaklaşımı",
+      "focusLabel": "Odak",
+      "focusValue": "Doğru belge, doğru zamanlama, doğru yönlendirme",
+      "approachLabel": "Yaklaşım",
+      "approachValue": "İhtiyaca uygun, sade ve kontrollü operasyon kurgusu",
+      "planningLabel": "Hazırlık ve planlama",
+      "planningValue": "Süreç odaklı",
+      "supportLabel": "Sunduğumuz destek",
+      "supportItems": [
+        "Belge ve süreç ön hazırlığı",
+        "Taşıma ve lojistik planlama desteği",
+        "İletişim, takip ve koordinasyon"
+      ],
+      "serviceAreaLabel": "Hizmet alanı",
+      "serviceAreaValue": "Gümrük ve lojistik koordinasyonu",
+      "workStyleLabel": "Çalışma biçimi",
+      "workStyleValue": "İhtiyaca göre esnek planlama"
+    }
+  },
+  "serviceCarousel": {
+    "eyebrow": "Hizmet Alanları",
+    "title": "İhtiyaca göre şekillenen hizmet başlıklarını sade bir yapıyla sunuyoruz.",
+    "description": "Burada amaç, teknik olarak var olmayan bir sistemi anlatmak değil; hangi alanlarda destek verdiğinizi daha anlaşılır ve daha düzenli bir şekilde göstermek.",
+    "slides": [
+      {
+        "id": "01",
+        "tag": "Gümrükleme",
+        "title": "İthalat ve ihracat süreçlerinde belge, beyan ve mevzuat takibini destekliyoruz",
+        "description": "Sürecin gerektirdiği evrak akışını, beyan hazırlığını ve operasyon koordinasyonunu daha düzenli bir yapıda ele alıyoruz.",
+        "bullets": [
+          "Beyan süreç desteği",
+          "Belge kontrol akışı",
+          "Koordinasyon ve takip"
+        ],
+        "accent": "from-[#d8b27d] via-[#9f6c38] to-[#2f2217]"
+      },
+      {
+        "id": "02",
+        "tag": "Karayolu",
+        "title": "Yurtiçi ve uluslararası karayolu operasyonlarında planlı sevkiyat desteği",
+        "description": "Parsiyel ya da komple yük ihtiyaçlarında, sevkiyat ritmine uygun planlama ve süreç koordinasyonu sunuyoruz.",
+        "bullets": [
+          "Yükleme planlaması",
+          "Sınır geçişi koordinasyonu",
+          "Teslim süreci takibi"
+        ],
+        "accent": "from-[#ecdfca] via-[#b38a58] to-[#463224]"
+      },
+      {
+        "id": "03",
+        "tag": "Denizyolu",
+        "title": "Konteyner bazlı taşımalarda daha dengeli maliyet ve süre planlaması",
+        "description": "Hat seçimi, liman süreçleri ve evrak akışında daha kontrollü bir operasyon akışı oluşturuyoruz.",
+        "bullets": [
+          "FCL / LCL organizasyonu",
+          "Liman süreç takibi",
+          "Dokümantasyon desteği"
+        ],
+        "accent": "from-[#d7dce0] via-[#698198] to-[#1f2f3d]"
+      },
+      {
+        "id": "04",
+        "tag": "Havayolu",
+        "title": "Zaman hassasiyetli gönderiler için hızlı ve düzenli havayolu organizasyonu",
+        "description": "Acil sevkiyatlarda kapasite, belge ve operasyon koordinasyonunu daha temiz bir sürece çeviriyoruz.",
+        "bullets": [
+          "Rezervasyon koordinasyonu",
+          "Belge hazırlık desteği",
+          "Süre odaklı planlama"
+        ],
+        "accent": "from-[#f3e5ce] via-[#c68d4a] to-[#4c3723]"
+      }
+    ],
+    "approach": {
+      "eyebrow": "Yaklaşımımız",
+      "title": "Çalışma biçimimizi sade adımlarla anlatıyoruz",
+      "steps": [
+        "İhtiyaç ve süreç değerlendirmesi",
+        "Uygun hizmet modelinin belirlenmesi",
+        "Operasyon planlaması ve koordinasyon",
+        "Sürecin iletişimle takip edilmesi"
+      ]
+    },
+    "focus": {
+      "eyebrow": "Odak Noktası",
+      "stats": [
+        {
+          "value": "18",
+          "label": "Ülke ve dış ticaret bağlantısı"
+        },
+        {
+          "value": "320+",
+          "label": "Süreç, belge ve koordinasyon takibi"
+        }
+      ]
+    }
+  },
+  "teamHighlight": {
+    "eyebrow": "Ekip ve Yaklaşım",
+    "title": "Süreci sadece taşıma olarak değil, sorumluluk olarak ele alan bir ekip yapısı",
+    "description": "Müşteriler için güven veren şey bazen sadece hizmet listesi değil, o süreci nasıl takip ettiğiniz ve nasıl iletişim kurduğunuzdur. Bu alan o güveni daha doğru anlatmak için var.",
+    "workStyle": {
+      "label": "Çalışma şekli",
+      "value": "Planlı iletişim, düzenli takip, net sorumluluk"
+    },
+    "stats": [
+      {
+        "value": "14+",
+        "label": "Gümrük ve lojistik süreçlerine odaklı ekip yapısı"
+      },
+      {
+        "value": "9 dk",
+        "label": "Hızlı geri dönüş ve ilk yönlendirme hedefi"
+      }
+    ]
+  },
+  "footer": {
+    "brand": "Genn2 Logistics",
+    "title": "Gümrük ve lojistik süreçlerinde daha net iletişim, daha düzenli takip ve daha güvenli akış",
+    "description": "Dış ticaret ve operasyon süreçlerinizde planlama, koordinasyon ve süreç takibini tek bir yerde toplamak için çalışıyoruz.",
+    "linksTitle": "Sayfalar",
+    "links": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetler",
+      "about": "Hakkımızda",
+      "careers": "Kariyer",
+      "contact": "İletişim",
+      "quote": "Teklif Al"
+    },
+    "contactTitle": "İletişim",
+    "contact": {
+      "email": "info@sirket.com",
+      "phone": "+90 212 000 00 00",
+      "address": "İstanbul, Türkiye",
+      "instagramLabel": "Instagram",
+      "instagramValue": "@gennlogistics",
+      "instagramHref": "https://www.instagram.com/gennlogistics/",
+      "linkedinLabel": "LinkedIn",
+      "linkedinValue": "Genn2 Logistics",
+      "linkedinHref": "https://www.linkedin.com/company/genn-logistics/"
+    },
+    "bottom": {
+      "copyright": "© 2026 Genn2. Tüm hakları saklıdır.",
+      "slogan": "Planlı operasyon. Net iletişim. Güvenilir süreç."
+    }
+  },
+  "navbar": {
+    "brand": "Genn2",
+    "links": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetler",
+      "about": "Hakkımızda",
+      "careers": "Kariyer",
+      "contact": "İletişim",
+      "quote": "Teklif Al"
+    },
+    "aboutMenu": {
+      "company": "Biz Kimiz",
+      "mission": "Amacımız",
+      "partners": "Partnerlerimiz"
+    },
+    "mobileMenuLabel": "Menü"
+  }
+}

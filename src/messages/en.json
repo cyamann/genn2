@@ -1,0 +1,430 @@
+{
+  "services": {
+    "title": "Services",
+    "heading": "Services coordinated from a single center for your customs, transportation, and field operations.",
+    "items": [
+      "Import and export customs clearance",
+      "Storage and bonded warehouse coordination",
+      "Road and sea freight organization",
+      "Air freight operation planning",
+      "Documentation and regulation process management",
+      "Operational logistics consulting"
+    ]
+  },
+  "quote": {
+    "eyebrow": "Get a Quote",
+    "title": "Send us the key details for a quote tailored to your operational needs",
+    "description": "Share the cargo type, destination country, transport expectations, and time sensitivity. Our team will get back to you with the right guidance.",
+    "form": {
+      "subjectPrefix": "Quote Request",
+      "title": "Create a quote request",
+      "description": "When you submit the form, your default mail app opens and your details are prepared as a ready-to-send email.",
+      "buttonLabel": "Create Quote Email",
+      "fields": {
+        "company": {
+          "label": "Company",
+          "placeholder": "Your company name"
+        },
+        "name": {
+          "label": "Contact Person",
+          "placeholder": "Full name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "example@mail.com"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "+90 ..."
+        },
+        "service": {
+          "label": "Service Need",
+          "placeholder": "Customs clearance, road freight, sea freight..."
+        },
+        "message": {
+          "label": "Details",
+          "placeholder": "Write cargo and process details"
+        }
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s plan your operational needs together.",
+    "description": "Share your shipment structure, customs processes, and the operational model you need. Our team will get back to you with the most suitable flow.",
+    "form": {
+      "subjectPrefix": "Contact Request",
+      "title": "Write to us",
+      "description": "When you fill out the form, your default mail app opens and your details are prepared as a ready-to-send email.",
+      "buttonLabel": "Send Email",
+      "fields": {
+        "name": {
+          "label": "Full Name",
+          "placeholder": "Enter your name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "example@mail.com"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "+90 ..."
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Write your operational needs"
+        }
+      }
+    },
+    "info": {
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "addressLabel": "Address",
+      "addressValue": "Istanbul, Türkiye",
+      "instagramLabel": "Instagram",
+      "instagramValue": "@gennlogistics",
+      "instagramHref": "https://www.instagram.com/gennlogistics/",
+      "linkedinLabel": "LinkedIn",
+      "linkedinValue": "Genn2 Logistics",
+      "linkedinHref": "https://www.linkedin.com/company/genn-logistics/"
+    },
+    "location": {
+      "eyebrow": "Location",
+      "title": "View the Metroport Business location on the map",
+      "mapTitle": "Metroport Business",
+      "mapQuery": "Metroport Business Istanbul"
+    }
+  },
+  "careers": {
+    "eyebrow": "Careers",
+    "title": "An open application area for those who want to join the team that drives operations forward",
+    "description": "We are looking for strong teammates in customs operations, customer management, transport planning, and field coordination. You can send us your resume and a short note by email through the form below.",
+    "highlights": [
+      "Customs operations expertise",
+      "Logistics planning",
+      "Customer and partner management",
+      "Analytical mindset and accountability"
+    ],
+    "form": {
+      "subjectPrefix": "Career Application",
+      "title": "Send your application by email",
+      "description": "Your information is transferred to your default mail app. You can attach your CV file on the opened email screen.",
+      "buttonLabel": "Create Application Email",
+      "fields": {
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "Enter your name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "example@mail.com"
+        },
+        "position": {
+          "label": "Position",
+          "placeholder": "Area you are interested in"
+        },
+        "experience": {
+          "label": "Experience",
+          "placeholder": "E.g. 4 years in customs operations"
+        },
+        "cv": {
+          "label": "CV",
+          "placeholder": ""
+        },
+        "message": {
+          "label": "Short Note",
+          "placeholder": "Briefly tell us about yourself"
+        }
+      }
+    }
+  },
+  "about": {
+    "eyebrow": "About Us",
+    "title": "We are an operations team that plans customs and logistics processes together",
+    "description": "We aim to build a more structured process tailored to our clients’ import, export, transportation, and storage needs. We value communication and coordination as much as technical expertise.",
+    "slides": [
+      {
+        "eyebrow": "Planning",
+        "title": "We clarify operational and regulatory needs before starting the process",
+        "description": "We evaluate documentation, transportation, and timing together to reduce unnecessary uncertainty."
+      },
+      {
+        "eyebrow": "Tracking",
+        "title": "We see communication and coordination as an integral part of the process",
+        "description": "We adopt regular feedback and clear responsibility distribution to ensure clients stay in control of the process."
+      }
+    ]
+  },
+  "mission": {
+    "eyebrow": "Our Purpose",
+    "title": "Making processes clearer, easier to track, and more reliable",
+    "description": "We know that the same solution does not apply to every shipment. That is why our goal is to plan according to each need and keep operations away from unnecessary complexity.",
+    "slides": [
+      {
+        "eyebrow": "Simplicity",
+        "title": "We want to break complex operations into clearer decision steps",
+        "description": "As the process grows, we aim to manage operations with a more readable structure so communication does not weaken."
+      },
+      {
+        "eyebrow": "Trust",
+        "title": "We want to build a process where the client knows what is happening and what to expect",
+        "description": "Our priority is to create a service language that reduces uncertainty and maintains clear, consistent communication."
+      }
+    ]
+  },
+  "partners": {
+    "eyebrow": "Our Partners",
+    "title": "We build more balanced operations with partnerships that strengthen the process",
+    "showcase": {
+      "eyebrow": "Partner Network",
+      "title": "Brands and business partners supporting the operational flow",
+      "description": "This area is designed as a logo wall that presents global and regional players that can collaborate across different transportation and logistics lines."
+    }
+  },
+  "aboutPage": {
+    "eyebrow": "About",
+    "title": "Clear answers to who we are, what we aim for, and who we work with",
+    "slides": [
+      {
+        "eyebrow": "Who We Are",
+        "title": "We are a team providing planning and coordination support in customs and logistics processes",
+        "description": "We aim to build a more readable process by combining technical operations with strong communication and tracking discipline."
+      },
+      {
+        "eyebrow": "Our Purpose",
+        "title": "We aim to make complex processes simpler and more reliable",
+        "description": "Instead of using the same template for every shipment, we focus on tailored guidance and controlled operational flows."
+      },
+      {
+        "eyebrow": "Our Partners",
+        "title": "We build a structure that strengthens transport and field operations through partnerships",
+        "description": "We support the process with partners we collaborate with in storage, transportation, and foreign trade connections."
+      }
+    ],
+    "sections": [
+      {
+        "title": "Who We Are",
+        "description": "We are an operations team providing planning and coordination support in customs, foreign trade, and logistics processes."
+      },
+      {
+        "title": "Our Purpose",
+        "description": "We aim to make complex processes simpler, more trackable, and more reliable."
+      },
+      {
+        "title": "Our Partners",
+        "description": "We strengthen the process with solution partners we work with in transportation, storage, and field operations."
+      }
+    ]
+  },
+  "discovery": {
+    "eyebrow": "Why Us",
+    "title": "We built a more meaningful framework that reflects our service approach",
+    "items": [
+      {
+        "title": "Right guidance",
+        "description": "Instead of using the same template for every shipment, the operation model is shaped according to the need."
+      },
+      {
+        "title": "Clear communication",
+        "description": "It makes communication between parties more readable and organized across different stages of the process."
+      },
+      {
+        "title": "Document and process discipline",
+        "description": "It creates a stronger operational foundation in documentation, regulations, and planning."
+      },
+      {
+        "title": "Flexible operational support",
+        "description": "It adapts to different scenarios based on transportation, storage, and customs needs."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Customs and Logistics Operations",
+    "title": "Get the right planning and reliable operational support for your foreign trade processes.",
+    "description": "We plan the right operational model together for your import, export, storage, and international transportation processes. Our goal is to make the process more structured, more trackable, and more reliable without making it unnecessarily complex.",
+    "primaryCta": "Review Operations",
+    "secondaryCta": "Request a Quote",
+    "stats": [
+      {
+        "value": "24/7",
+        "label": "Communication and process coordination"
+      },
+      {
+        "value": "12+",
+        "label": "International routes and partner network"
+      },
+      {
+        "value": "%100",
+        "label": "Documentation and process-tracking focused approach"
+      }
+    ],
+    "floatingLabels": {
+      "top": "Customs + Transport + Coordination",
+      "bottom": "Regulation and process focus"
+    },
+    "card": {
+      "eyebrow": "Consulting and planning",
+      "title": "Not the same for every shipment, but an operational approach shaped by need",
+      "focusLabel": "Focus",
+      "focusValue": "Right documents, right timing, right guidance",
+      "approachLabel": "Approach",
+      "approachValue": "Need-based, simple, and controlled operational structure",
+      "planningLabel": "Preparation and planning",
+      "planningValue": "Process-focused",
+      "supportLabel": "Support we provide",
+      "supportItems": [
+        "Document and process pre-preparation",
+        "Transport and logistics planning support",
+        "Communication, tracking, and coordination"
+      ],
+      "serviceAreaLabel": "Service area",
+      "serviceAreaValue": "Customs and logistics coordination",
+      "workStyleLabel": "Working style",
+      "workStyleValue": "Flexible planning based on need"
+    }
+  },
+  "serviceCarousel": {
+    "eyebrow": "Service Areas",
+    "title": "We present service categories shaped by need in a simple structure.",
+    "description": "The goal here is not to describe a technically nonexistent system, but to show more clearly and more neatly where you provide support.",
+    "slides": [
+      {
+        "id": "01",
+        "tag": "Customs Clearance",
+        "title": "We support document, declaration, and regulatory follow-up in import and export processes",
+        "description": "We handle the required document flow, declaration preparation, and operational coordination in a more organized structure.",
+        "bullets": [
+          "Declaration process support",
+          "Document control flow",
+          "Coordination and follow-up"
+        ],
+        "accent": "from-[#d8b27d] via-[#9f6c38] to-[#2f2217]"
+      },
+      {
+        "id": "02",
+        "tag": "Road Freight",
+        "title": "Planned shipment support in domestic and international road freight operations",
+        "description": "For partial or full-load needs, we provide planning and process coordination aligned with shipment rhythm.",
+        "bullets": [
+          "Loading planning",
+          "Border crossing coordination",
+          "Delivery process tracking"
+        ],
+        "accent": "from-[#ecdfca] via-[#b38a58] to-[#463224]"
+      },
+      {
+        "id": "03",
+        "tag": "Sea Freight",
+        "title": "More balanced cost and transit planning in container-based transportation",
+        "description": "We create a more controlled operational flow in line selection, port processes, and document flow.",
+        "bullets": [
+          "FCL / LCL organization",
+          "Port process tracking",
+          "Documentation support"
+        ],
+        "accent": "from-[#d7dce0] via-[#698198] to-[#1f2f3d]"
+      },
+      {
+        "id": "04",
+        "tag": "Air Freight",
+        "title": "Fast and organized air freight coordination for time-sensitive shipments",
+        "description": "For urgent shipments, we turn capacity, documentation, and operational coordination into a cleaner process.",
+        "bullets": [
+          "Booking coordination",
+          "Document preparation support",
+          "Time-focused planning"
+        ],
+        "accent": "from-[#f3e5ce] via-[#c68d4a] to-[#4c3723]"
+      }
+    ],
+    "approach": {
+      "eyebrow": "Our Approach",
+      "title": "We explain our way of working through simple steps",
+      "steps": [
+        "Needs and process assessment",
+        "Defining the right service model",
+        "Operational planning and coordination",
+        "Tracking the process through communication"
+      ]
+    },
+    "focus": {
+      "eyebrow": "Focus Point",
+      "stats": [
+        {
+          "value": "18",
+          "label": "Country and foreign trade connections"
+        },
+        {
+          "value": "320+",
+          "label": "Process, document, and coordination tracking"
+        }
+      ]
+    }
+  },
+  "teamHighlight": {
+    "eyebrow": "Team and Approach",
+    "title": "A team structure that treats the process not only as transportation, but as responsibility",
+    "description": "For clients, what creates trust is sometimes not just the service list, but how you follow the process and how you communicate. This section exists to express that trust more clearly.",
+    "workStyle": {
+      "label": "Working style",
+      "value": "Planned communication, regular follow-up, clear responsibility"
+    },
+    "stats": [
+      {
+        "value": "14+",
+        "label": "Team structure focused on customs and logistics processes"
+      },
+      {
+        "value": "9 min",
+        "label": "Fast response and initial guidance target"
+      }
+    ]
+  },
+  "footer": {
+    "brand": "Genn2 Logistics",
+    "title": "Clear communication, structured tracking, and reliable flow in customs and logistics processes",
+    "description": "We aim to bring planning, coordination, and process tracking together in one place for your foreign trade and operations.",
+    "linksTitle": "Pages",
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact",
+      "quote": "Get a Quote"
+    },
+    "contactTitle": "Contact",
+    "contact": {
+      "email": "info@sirket.com",
+      "phone": "+90 212 000 00 00",
+      "address": "Istanbul, Türkiye",
+      "instagramLabel": "Instagram",
+      "instagramValue": "@gennlogistics",
+      "instagramHref": "https://www.instagram.com/gennlogistics/",
+      "linkedinLabel": "LinkedIn",
+      "linkedinValue": "Genn2 Logistics",
+      "linkedinHref": "https://www.linkedin.com/company/genn-logistics/"
+    },
+    "bottom": {
+      "copyright": "© 2026 Genn. All rights reserved.",
+      "slogan": "Planned operations. Clear communication. Reliable process."
+    }
+  },
+  "navbar": {
+    "brand": "Genn2",
+    "links": {
+      "home": "Home",
+      "services": "Services",
+      "about": "About",
+      "careers": "Careers",
+      "contact": "Contact",
+      "quote": "Get a Quote"
+    },
+    "aboutMenu": {
+      "company": "Who We Are",
+      "mission": "Our Purpose",
+      "partners": "Our Partners"
+    },
+    "mobileMenuLabel": "Menu"
+  }
+}
