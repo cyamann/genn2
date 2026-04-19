@@ -416,6 +416,7 @@
       "home": "Ana Sayfa",
       "services": "Hizmetler",
       "about": "Hakkımızda",
+      "documents": "İstenilen Belgeler",
       "careers": "Kariyer",
       "contact": "İletişim",
       "quote": "Teklif Al"
@@ -425,6 +426,154 @@
       "mission": "Amacımız",
       "partners": "Partnerlerimiz"
     },
+    "documentsMenu": {
+      "requiredDocuments": "İstenilen Belgeler",
+      "certificates": "Belgelerimiz",
+      "usefulLinks": "Faydalı Linkler"
+    },
     "mobileMenuLabel": "Menü"
+  },
+  "documents": {
+    "eyebrow": "İstenilen Belgeler",
+    "title": "İhracat ve İthalat Evrak Dökümani",
+    "description": "Gümrük müşerileriğinizin hazırlaması gereken ve tarafımızdan temin edilen tüm resmi ve ticari belgeler",
+    "export": {
+      "title": "İHRACAT EVRAK DÖKÜMANI",
+      "items": [
+        "Resmi Türkçe fatura (E-Fatura – E-Arşiv)",
+        "Avrupa topluluğuna yönelik ihracatlarında ATR (Tarafımızdan düzenlenir)",
+        "Anlaşmalı ülkeler için EUR1 belgesi (Tarafımızdan düzenlenir)",
+        "Diğer ülkeler için Menşe Şahadetnamesi (Tarafımızdan düzenlenir)",
+        "Peşin ödeme şeklinde yapılan ihracatta Döviz Alım Belgesi (Bankanız tarafından düzenlenir)",
+        "Özel evrak gerektiren ihraç eşyalar için Kontrol Belgesi, Ziraat Raporu, Sağlık Raporu, Fimugasyon Raporu v.b. istek doğrultusunda tarafımızdan alınır",
+        "İhracatın gerçekleştirilmesi için göndermek istediğiniz malın bağlı bulunduğu İhracatçılar Birliğine üyelik (Tarafımızdan üyelik yapılır)",
+        "Dahilde İşleme belgesine dayalı ihracat belgeleri",
+        "İthal edilen eşyanın İhracatında İthalat ta ait tek idari belge ve ekleri"
+      ]
+    },
+    "import": {
+      "title": "İTHALAT EVRAK DÖKÜMANI",
+      "items": [
+        "İthal eşyaya ait orjinal fatura (Invoice)",
+        "İthal eşyaya ait Çeki Listesi (Packing List)",
+        "İthal eşya ya ait gümrük kıymet bildirim formu (Tarafımızca hazırlanır)",
+        "Sigorta poliçesi (İşlem F.O.B. veya C.F. ise)",
+        "Navlun faturası",
+        "Banka transfer dekontu veya % KKDF",
+        "Ordino",
+        "Konşimento",
+        "Sanayici Taahhütname, Bakım onarım belgesi (Özel evrak gerektiren mallarda)",
+        "Avrupa dan ithal edilecek mallardan ATR veya EUR.1 belgesi"
+      ]
+    },
+    "cta": {
+      "title": "Belge hazırlığında destek mi istiyorsunuz?",
+      "description": "Tüm ihracat ve ithalat belgelerinizin hazırlanması ve takibi konusunda size tam destek verebiliriz. İletişim sayfasından bize yazın.",
+      "button": "Bize Yazın"
+    }
+  },
+  "certificates": {
+    "eyebrow": "Belgelerimiz",
+    "title": "Kurumsal Sertifikalar ve Belgeler",
+    "description": "Genn2 Logistics olarak sahip olduğumuz resmi sertifikalar, akreditasyonlar ve gümrük belgelerini burada görebilirsiniz.",
+    "documents": [
+      {
+        "title": "Gümrük Sertifika Belgesi",
+        "description": "Firmanın gümrük operasyonlarına uyum sağladığını ve resmi standartları karşıladığını belgeleyici sertifikamız. Tüm gümrükleme işlemlerinde geçerlidir."
+      },
+      {
+        "title": "Taşıma ve Lojistik Sertifikası",
+        "description": "Uluslararası taşıma ve lojistik standartlarına uyumlu hizmet sunduğumuzu belgeleyen sertifikamız. Depolama, antrepo ve lojistik koordinasyonunda işlerlik gösterir."
+      }
+    ],
+    "downloadButton": "PDF İndir",
+    "info": {
+      "title": "Belgelerimizin Geçerlilik Alanı",
+      "description": "Aşağıda belirtilen tüm operasyon alanlarında bu belgeler geçerli ve kabul görmektedir:",
+      "items": [
+        "İthalat ve ihracat gümrükleme işlemlerinde",
+        "Uluslararası taşıma ve koordinasyonda",
+        "Depolama ve antrepo hizmetlerinde",
+        "Belge ve mevzuat yönetiminde",
+        "Müşteri ve gümrük idaresi tarafından tanınan operasyonlarda"
+      ]
+    }
+  },
+  "usefulLinks": {
+    "eyebrow": "Faydalı Linkler",
+    "title": "Gümrük ve Lojistik İçin Yararlı Kaynaklar",
+    "description": "Gümrük işlemleri, ihracat-ithalat, standartlar ve sektörel bilgiler için resmi kurumların ve meslek örgütlerinin web sayfalarına hızlı erişim sağlayın.",
+    "sections": {
+      "government": "Devlet Kurumları",
+      "business": "Merkez Bankası ve İstatistik",
+      "organizations": "Meslek Örgütleri"
+    },
+    "links": [
+      {
+        "category": "government",
+        "name": "T.C. Ticaret Bakanlığı - Gümrük İşlemleri",
+        "description": "Gümrük işlemlerine ilişkin resmi bilgiler ve düzenlemeler",
+        "url": "https://ticaret.gov.tr/gumruk-islemleri"
+      },
+      {
+        "category": "government",
+        "name": "T.C. Ekonomi Bakanlığı",
+        "description": "Ekonomi ve dış ticaret politikaları hakkında bilgiler",
+        "url": "https://ticaret.gov.tr/"
+      },
+      {
+        "category": "government",
+        "name": "T.C. Sanayi ve Teknoloji Bakanlığı",
+        "description": "Sanayi, teknoloji ve araştırma faaliyetleri hakkında bilgiler",
+        "url": "https://www.sanayi.gov.tr/anasayfa"
+      },
+      {
+        "category": "business",
+        "name": "T.C. Merkez Bankası",
+        "description": "Döviz kurları, faiz oranları ve ekonomik veriler",
+        "url": "https://www.tcmb.gov.tr/"
+      },
+      {
+        "category": "business",
+        "name": "Türkiye İstatistik Kurumu (TÜİK)",
+        "description": "İthalat-ihracat istatistikleri ve ekonomik göstergeler",
+        "url": "https://www.tuik.gov.tr/"
+      },
+      {
+        "category": "organizations",
+        "name": "Marmara İhracatçı Birlikleri (MİB)",
+        "description": "Marmara bölgesi ihracatçıları için bilgi ve destek hizmetleri",
+        "url": "https://www.marmara-exporters.org/"
+      },
+      {
+        "category": "organizations",
+        "name": "İstanbul Gümrük Müşavirleri Derneği (İGMD)",
+        "description": "Gümrük müşavirliği hizmetleri ve sektörel bilgiler",
+        "url": "https://www.istanbulgumruk.org.tr/"
+      },
+      {
+        "category": "organizations",
+        "name": "Uluslararası Nakliyeciler Derneği (UND)",
+        "description": "Uluslararası taşımacılık hizmetleri ve standartları",
+        "url": "https://www.und.org.tr/"
+      },
+      {
+        "category": "organizations",
+        "name": "TSE - Türk Standartları Enstitüsü",
+        "description": "Türk Standartları, sertifikasyon ve uygunluk değerlendirmesi",
+        "url": "https://www.tse.org.tr/"
+      },
+      {
+        "category": "organizations",
+        "name": "Türkiye İhracatçılar Meclisi (TİM)",
+        "description": "İhraç ürünleri hakkında istatistikler ve ihracatçılar için bilgiler",
+        "url": "https://tim.org.tr/tr/default"
+      }
+    ],
+    "info": {
+      "title": "Daha fazla destek mi gerekli?",
+      "description": "Gümrükleme, lojistik ve dış ticaret konularında danışmanlığa ihtiyacınız varsa, ekibimize başvurun.",
+      "link": "İletişim Sayfası"
+    }
   }
 }

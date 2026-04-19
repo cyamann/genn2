@@ -16,6 +16,7 @@ export default function Navbar({
   const dict = useDictionary();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
+  const [isDocumentsOpen, setIsDocumentsOpen] = useState(false);
   const isOverlay = variant === "overlay";
 
   const shellClassName = isOverlay
@@ -102,6 +103,58 @@ export default function Navbar({
                         </p>
                         <p className={`text-xs mt-1.5 leading-relaxed ${isOverlay ? "text-white/50" : "text-[#5A7A99]"}`}>
                           Güvenilir iş ortaklarımız
+                        </p>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Documents Dropdown */}
+              <div className="group relative">
+                <button className={`${menuLinkClassName} flex items-center gap-1.5`}>
+                  {dict.navbar.links.documents}
+                  <svg className="w-3.5 h-3.5 transition duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                  </svg>
+                </button>
+
+                <div className="absolute left-1/2 -translate-x-1/2 top-full hidden min-w-[380px] pt-4 group-hover:block z-50">
+                  <div className={`rounded-2xl border backdrop-blur-xl shadow-2xl p-6 ${isOverlay ? "bg-[#0A3F66]/90 border-white/20" : "bg-white/95 border-white"}`}>
+                    <div className="space-y-3">
+                      <Link
+                        href={`/${locale}/documents`}
+                        className={`block rounded-xl px-4 py-3.5 transition duration-300 group/item ${isOverlay ? "hover:bg-white/10" : "hover:bg-[#4DA6FF]/8"}`}
+                      >
+                        <p className={`font-semibold text-sm leading-tight ${isOverlay ? "text-white" : "text-[#003366]"}`}>
+                          {dict.navbar.documentsMenu.requiredDocuments}
+                        </p>
+                        <p className={`text-xs mt-1.5 leading-relaxed ${isOverlay ? "text-white/50" : "text-[#5A7A99]"}`}>
+                          İhracat ve ithalat evrak dökümani
+                        </p>
+                      </Link>
+
+                      <Link
+                        href={`/${locale}/certificates`}
+                        className={`block rounded-xl px-4 py-3.5 transition duration-300 group/item ${isOverlay ? "hover:bg-white/10" : "hover:bg-[#4DA6FF]/8"}`}
+                      >
+                        <p className={`font-semibold text-sm leading-tight ${isOverlay ? "text-white" : "text-[#003366]"}`}>
+                          {dict.navbar.documentsMenu.certificates}
+                        </p>
+                        <p className={`text-xs mt-1.5 leading-relaxed ${isOverlay ? "text-white/50" : "text-[#5A7A99]"}`}>
+                          Kurumsal sertifikalar
+                        </p>
+                      </Link>
+
+                      <Link
+                        href={`/${locale}/useful-links`}
+                        className={`block rounded-xl px-4 py-3.5 transition duration-300 group/item ${isOverlay ? "hover:bg-white/10" : "hover:bg-[#4DA6FF]/8"}`}
+                      >
+                        <p className={`font-semibold text-sm leading-tight ${isOverlay ? "text-white" : "text-[#003366]"}`}>
+                          {dict.navbar.documentsMenu.usefulLinks}
+                        </p>
+                        <p className={`text-xs mt-1.5 leading-relaxed ${isOverlay ? "text-white/50" : "text-[#5A7A99]"}`}>
+                          Gümrük ve sektör kaynakları
                         </p>
                       </Link>
                     </div>
@@ -202,6 +255,45 @@ export default function Navbar({
                       className={`block px-3 py-2 rounded text-sm transition duration-300 ${isOverlay ? "hover:bg-white/10" : "hover:bg-white/60"}`}
                     >
                       {dict.navbar.aboutMenu.partners}
+                    </Link>
+                  </div>
+                ) : null}
+
+                <button
+                  type="button"
+                  onClick={() => setIsDocumentsOpen((current) => !current)}
+                  className={`flex items-center justify-between px-4 py-3 rounded-lg transition duration-300 w-full ${isOverlay ? "hover:bg-white/10" : "hover:bg-[#4DA6FF]/8"}`}
+                >
+                  <span>{dict.navbar.links.documents}</span>
+                  <svg className={`w-4 h-4 transition duration-300 ${isDocumentsOpen ? "rotate-180" : ""}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                  </svg>
+                </button>
+
+                {isDocumentsOpen ? (
+                  <div className={`rounded-lg px-2 py-2 ml-2 border-l-2 space-y-1 ${isOverlay ? "border-[#4DA6FF] bg-white/5" : "border-[#4DA6FF] bg-[#E8F0F8]"}`}>
+                    <Link
+                      href={`/${locale}/documents`}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className={`block px-3 py-2 rounded text-sm transition duration-300 ${isOverlay ? "hover:bg-white/10" : "hover:bg-white/60"}`}
+                    >
+                      {dict.navbar.documentsMenu.requiredDocuments}
+                    </Link>
+
+                    <Link
+                      href={`/${locale}/certificates`}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className={`block px-3 py-2 rounded text-sm transition duration-300 ${isOverlay ? "hover:bg-white/10" : "hover:bg-white/60"}`}
+                    >
+                      {dict.navbar.documentsMenu.certificates}
+                    </Link>
+
+                    <Link
+                      href={`/${locale}/useful-links`}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                      className={`block px-3 py-2 rounded text-sm transition duration-300 ${isOverlay ? "hover:bg-white/10" : "hover:bg-white/60"}`}
+                    >
+                      {dict.navbar.documentsMenu.usefulLinks}
                     </Link>
                   </div>
                 ) : null}

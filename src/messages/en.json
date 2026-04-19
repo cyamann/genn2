@@ -416,6 +416,7 @@
       "home": "Home",
       "services": "Services",
       "about": "About",
+      "documents": "Required Documents",
       "careers": "Careers",
       "contact": "Contact",
       "quote": "Get a Quote"
@@ -425,6 +426,154 @@
       "mission": "Our Purpose",
       "partners": "Our Partners"
     },
+    "documentsMenu": {
+      "requiredDocuments": "Required Documents",
+      "certificates": "Our Certificates",
+      "usefulLinks": "Useful Links"
+    },
     "mobileMenuLabel": "Menu"
+  },
+  "documents": {
+    "eyebrow": "Required Documents",
+    "title": "Export and Import Document List",
+    "description": "All official and commercial documents that your customs clients need to prepare and that we obtain for you",
+    "export": {
+      "title": "EXPORT DOCUMENT LIST",
+      "items": [
+        "Official Turkish Invoice (E-Invoice – E-Archive)",
+        "ATR for exports to the European Union (We prepare this)",
+        "EUR1 certificate for preferential countries (We prepare this)",
+        "Certificate of Origin for other countries (We prepare this)",
+        "Foreign Currency Purchase Certificate for advance payment exports (Your bank prepares this)",
+        "Control Certificate, Agricultural Report, Health Report, Fumigation Report etc. for goods requiring special documents (We obtain these as requested)",
+        "Membership with the Exporters Association for the goods to be exported (We handle the membership)",
+        "Export documents based on Inward Processing Declaration",
+        "Single administrative document and attachments for imported goods in export"
+      ]
+    },
+    "import": {
+      "title": "IMPORT DOCUMENT LIST",
+      "items": [
+        "Original invoice for imported goods (Invoice)",
+        "Packing list for imported goods",
+        "Customs value notification form for imported goods (We prepare this)",
+        "Insurance policy (If the transaction is F.O.B. or C.F.)",
+        "Freight invoice",
+        "Bank transfer receipt or % KKDF",
+        "Ordino",
+        "Bill of lading",
+        "Manufacturer warranty, Maintenance and repair certificate (For goods requiring special documents)",
+        "ATR or EUR.1 certificate for goods imported from Europe"
+      ]
+    },
+    "cta": {
+      "title": "Need help with document preparation?",
+      "description": "We can provide you full support in preparing and tracking all your export and import documents. Contact us through our contact page.",
+      "button": "Contact Us"
+    }
+  },
+  "certificates": {
+    "eyebrow": "Our Certificates",
+    "title": "Corporate Certificates and Documentation",
+    "description": "View the official certificates, accreditations and customs documents that Genn2 Logistics holds. These verify our compliance and authority in customs and logistics operations.",
+    "documents": [
+      {
+        "title": "Customs Certificate",
+        "description": "Our official certificate demonstrating compliance with customs operations standards and regulations. Valid and recognized in all customs clearance procedures."
+      },
+      {
+        "title": "Transportation and Logistics Certificate",
+        "description": "Our certificate of compliance with international transportation and logistics standards. Applicable to storage, warehouse coordination and logistics operations."
+      }
+    ],
+    "downloadButton": "Download PDF",
+    "info": {
+      "title": "Scope of Our Certificates",
+      "description": "Our certificates are valid and recognized in all operations stated below:",
+      "items": [
+        "Import and export customs clearance operations",
+        "International transportation and coordination services",
+        "Storage and warehouse services",
+        "Document and regulations management",
+        "Operations recognized by customs authorities and clients"
+      ]
+    }
+  },
+  "usefulLinks": {
+    "eyebrow": "Useful Links",
+    "title": "Essential Resources for Customs and Logistics",
+    "description": "Quick access to official government agencies, industry associations, and professional organizations for customs procedures, import-export regulations, and sector information.",
+    "sections": {
+      "government": "Government Agencies",
+      "business": "Central Bank and Statistics",
+      "organizations": "Professional Organizations"
+    },
+    "links": [
+      {
+        "category": "government",
+        "name": "Ministry of Commerce - Customs Operations",
+        "description": "Official information and regulations regarding customs procedures",
+        "url": "https://ticaret.gov.tr/gumruk-islemleri"
+      },
+      {
+        "category": "government",
+        "name": "Ministry of Economy",
+        "description": "Economic and foreign trade policies and information",
+        "url": "https://ticaret.gov.tr/"
+      },
+      {
+        "category": "government",
+        "name": "Ministry of Industry and Technology",
+        "description": "Information on industry, technology and research activities",
+        "url": "https://www.sanayi.gov.tr/anasayfa"
+      },
+      {
+        "category": "business",
+        "name": "Central Bank of the Republic of Türkiye",
+        "description": "Exchange rates, interest rates and economic data",
+        "url": "https://www.tcmb.gov.tr/"
+      },
+      {
+        "category": "business",
+        "name": "Turkish Statistical Institute (TUIK)",
+        "description": "Import-export statistics and economic indicators",
+        "url": "https://www.tuik.gov.tr/"
+      },
+      {
+        "category": "organizations",
+        "name": "Marmara Exporters Associations (MIB)",
+        "description": "Information and support services for Marmara region exporters",
+        "url": "https://www.marmara-exporters.org/"
+      },
+      {
+        "category": "organizations",
+        "name": "Istanbul Customs Consultants Association (IGMD)",
+        "description": "Customs consulting services and sector information",
+        "url": "https://www.istanbulgumruk.org.tr/"
+      },
+      {
+        "category": "organizations",
+        "name": "International Freight Forwarders Association (UND)",
+        "description": "International transportation services and standards",
+        "url": "https://www.und.org.tr/"
+      },
+      {
+        "category": "organizations",
+        "name": "Turkish Standards Institution (TSE)",
+        "description": "Turkish Standards, certification and conformity assessment",
+        "url": "https://www.tse.org.tr/"
+      },
+      {
+        "category": "organizations",
+        "name": "Turkish Exporters Assembly (TIM)",
+        "description": "Export statistics and information for exporters",
+        "url": "https://tim.org.tr/tr/default"
+      }
+    ],
+    "info": {
+      "title": "Need more support?",
+      "description": "If you need consulting on customs clearance, logistics and foreign trade, contact our team.",
+      "link": "Contact Page"
+    }
   }
 }
