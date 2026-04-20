@@ -2,7 +2,6 @@ import { getDictionary } from "@/src/lib/getDictionaries";
 import type { ReactNode } from "react";
 import { DictionaryProvider } from "../components/providers/dictionary-provider";
 
-
 export default async function LocaleLayout({
   children,
   params,
@@ -14,12 +13,8 @@ export default async function LocaleLayout({
   const dictionary = await getDictionary(locale);
 
   return (
-    <html lang={locale}>
-      <body>
-        <DictionaryProvider dictionary={dictionary}>
-          {children}
-        </DictionaryProvider>
-      </body>
-    </html>
+    <DictionaryProvider dictionary={dictionary}>
+      {children}
+    </DictionaryProvider>
   );
 }
