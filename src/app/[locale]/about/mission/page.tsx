@@ -13,25 +13,25 @@ export default async function AboutMissionPage({
 
   return (
     <>
-      <Navbar locale={locale} />
-      <main className="bg-white px-6 py-20 md:px-10 md:py-28 lg:px-16">
-        <SectionReveal className="mx-auto max-w-5xl">
-          <span className="inline-block rounded-lg bg-[#4DA6FF]/15 px-3 py-1.5 text-xs font-semibold text-[#0052A3] mb-6">
-            {dict.mission.eyebrow}
-          </span>
+      <Navbar locale={locale} variant="overlay" />
+      <main className="inner-page-shell">
+        <section className="inner-page-hero">
+          <SectionReveal className="inner-page-hero-inner">
+            <span className="inner-page-eyebrow">{dict.mission.eyebrow}</span>
+            <h1 className="inner-page-title text-5xl font-bold sm:text-6xl">
+              {dict.mission.title}
+            </h1>
+            <p className="inner-page-description text-base leading-relaxed">
+              {dict.mission.description}
+            </p>
+          </SectionReveal>
+        </section>
 
-          <h1 className="text-5xl font-bold text-[#003366] sm:text-6xl mt-4">
-            {dict.mission.title}
-          </h1>
-
-          <p className="mt-8 text-base leading-relaxed text-[#5A7A99] max-w-3xl">
-            {dict.mission.description}
-          </p>
-
-          <div className="mt-16">
+        <section className="inner-page-surface">
+          <SectionReveal className="mx-auto max-w-5xl">
             <AboutCarousel slides={dict.mission.slides} />
-          </div>
-        </SectionReveal>
+          </SectionReveal>
+        </section>
       </main>
       <Footer locale={locale} />
     </>

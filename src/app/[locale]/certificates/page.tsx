@@ -33,29 +33,27 @@ export default async function CertificatesPage({
 
   return (
     <>
-      <Navbar locale={locale} />
-      <main className="bg-white px-6 py-20 md:px-10 md:py-28 lg:px-16">
-        <SectionReveal className="mx-auto max-w-5xl">
-          <span className="inline-block rounded-lg bg-[#4DA6FF]/15 px-3 py-1.5 text-xs font-semibold text-[#0052A3] mb-6">
-            {dict.certificates.eyebrow}
-          </span>
+      <Navbar locale={locale} variant="overlay" />
+      <main className="inner-page-shell">
+        <section className="inner-page-hero">
+          <SectionReveal className="inner-page-hero-inner">
+            <span className="inner-page-eyebrow">{dict.certificates.eyebrow}</span>
+            <h1 className="inner-page-title text-5xl font-bold sm:text-6xl">
+              {dict.certificates.title}
+            </h1>
+            <p className="inner-page-description text-base leading-relaxed">
+              {dict.certificates.description}
+            </p>
+          </SectionReveal>
+        </section>
 
-          <h1 className="text-5xl font-bold text-[#003366] sm:text-6xl mt-4">
-            {dict.certificates.title}
-          </h1>
-
-          <p className="mt-8 text-base leading-relaxed text-[#5A7A99] max-w-3xl">
-            {dict.certificates.description}
-          </p>
-        </SectionReveal>
-
-        {/* Documents Grid */}
-        <SectionReveal className="mx-auto max-w-5xl mt-20" delay={80}>
+        <section className="inner-page-surface">
+        <SectionReveal className="mx-auto max-w-5xl" delay={80}>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {documents.map((doc) => (
               <div
                 key={doc.id}
-                className="rounded-2xl border border-[#D9E8F5] bg-gradient-to-br from-white to-[#F8FAFC] p-8 hover:shadow-lg transition duration-300 hover:border-[#4DA6FF] group"
+                className="group rounded-[28px] border border-[#D9E8F5] bg-gradient-to-br from-white via-[#F8FBFE] to-[#EDF4FB] p-8 shadow-[0_24px_50px_rgba(0,31,77,0.08)] transition duration-300 hover:-translate-y-1 hover:border-[#4DA6FF] hover:shadow-[0_28px_60px_rgba(0,82,163,0.14)]"
               >
                 {/* Icon */}
                 <div className="text-4xl mb-6 transition duration-300 group-hover:scale-110 inline-block">
@@ -105,9 +103,8 @@ export default async function CertificatesPage({
           </div>
         </SectionReveal>
 
-        {/* Additional Info */}
-        <SectionReveal className="mx-auto max-w-5xl mt-20" delay={120}>
-          <div className="rounded-2xl bg-[#F8FAFC] border border-[#D9E8F5] p-8 sm:p-10">
+        <SectionReveal className="mx-auto mt-20 max-w-5xl" delay={120}>
+          <div className="rounded-[28px] border border-[#D9E8F5] bg-white/95 p-8 shadow-[0_24px_50px_rgba(0,31,77,0.08)] sm:p-10">
             <h3 className="text-2xl font-bold text-[#003366] mb-4">
               {dict.certificates.info.title}
             </h3>
@@ -124,6 +121,7 @@ export default async function CertificatesPage({
             </ul>
           </div>
         </SectionReveal>
+        </section>
       </main>
       <Footer locale={locale} />
     </>

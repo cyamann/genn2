@@ -13,7 +13,7 @@ export default function Footer({ locale }: FooterProps) {
   const linkedinHref = dict.footer.contact.linkedinHref;
 
   return (
-    <footer className="mt-24 bg-[#003366] px-6 py-16 text-white md:px-10 lg:px-16">
+    <footer className="bg-[#003366] px-6 py-16 text-white md:px-10 lg:px-16">
       <div className="mx-auto max-w-7xl">
         <div className="border-b border-white/15 pb-12">
           <div className="grid gap-12 lg:grid-cols-[1.2fr_0.8fr]">

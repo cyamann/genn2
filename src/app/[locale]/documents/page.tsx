@@ -14,24 +14,22 @@ export default async function DocumentsPage({
 
   return (
     <>
-      <Navbar locale={locale} />
-      <main className="bg-white px-6 py-20 md:px-10 md:py-28 lg:px-16">
-        <SectionReveal className="mx-auto max-w-5xl">
-          <span className="inline-block rounded-lg bg-[#4DA6FF]/15 px-3 py-1.5 text-xs font-semibold text-[#0052A3] mb-6">
-            {dict.documents.eyebrow}
-          </span>
+      <Navbar locale={locale} variant="overlay" />
+      <main className="inner-page-shell">
+        <section className="inner-page-hero">
+          <SectionReveal className="inner-page-hero-inner">
+            <span className="inner-page-eyebrow">{dict.documents.eyebrow}</span>
+            <h1 className="inner-page-title text-5xl font-bold sm:text-6xl">
+              {dict.documents.title}
+            </h1>
+            <p className="inner-page-description text-base leading-relaxed">
+              {dict.documents.description}
+            </p>
+          </SectionReveal>
+        </section>
 
-          <h1 className="text-5xl font-bold text-[#003366] sm:text-6xl mt-4">
-            {dict.documents.title}
-          </h1>
-
-          <p className="mt-8 text-base leading-relaxed text-[#5A7A99] max-w-3xl">
-            {dict.documents.description}
-          </p>
-        </SectionReveal>
-
-        {/* Export Documents Section */}
-        <SectionReveal className="mx-auto max-w-5xl mt-20" delay={80}>
+        <section className="inner-page-surface">
+        <SectionReveal className="mx-auto max-w-5xl" delay={80}>
           <div className="mb-8">
             <h2 className="text-3xl font-bold text-[#003366] sm:text-4xl">
               {dict.documents.export.title}
@@ -56,8 +54,7 @@ export default async function DocumentsPage({
           </div>
         </SectionReveal>
 
-        {/* Import Documents Section */}
-        <SectionReveal className="mx-auto max-w-5xl mt-20" delay={120}>
+        <SectionReveal className="mx-auto mt-20 max-w-5xl" delay={120}>
           <div className="mb-8">
             <h2 className="text-3xl font-bold text-[#003366] sm:text-4xl">
               {dict.documents.import.title}
@@ -82,9 +79,8 @@ export default async function DocumentsPage({
           </div>
         </SectionReveal>
 
-        {/* CTA Section */}
-        <SectionReveal className="mx-auto max-w-5xl mt-20" delay={160}>
-          <div className="rounded-2xl bg-gradient-to-br from-[#4DA6FF]/10 to-[#E8F0F8] border border-[#D9E8F5] p-8 sm:p-10">
+        <SectionReveal className="mx-auto mt-20 max-w-5xl" delay={160}>
+          <div className="rounded-[28px] border border-[#D9E8F5] bg-gradient-to-br from-white via-[#F7FBFF] to-[#E8F1FA] p-8 shadow-[0_24px_50px_rgba(0,31,77,0.08)] sm:p-10">
             <h3 className="text-2xl font-bold text-[#003366]">
               {dict.documents.cta.title}
             </h3>
@@ -99,6 +95,7 @@ export default async function DocumentsPage({
             </Link>
           </div>
         </SectionReveal>
+        </section>
       </main>
       <Footer locale={locale} />
     </>

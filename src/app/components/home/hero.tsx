@@ -19,7 +19,7 @@ export default function Hero({ locale }: HeroProps) {
       <SectionReveal className="relative mx-auto max-w-7xl">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-start">
           <div>
-            <span className="inline-block rounded-lg bg-[#4DA6FF]/15 px-3 py-1.5 text-xs font-semibold text-[#0052A3] mb-6">
+            <span className="inline-block rounded-lg bg-[#4DA6FF]/15 px-3 py-1.5 text-xs font-semibold text-[#fff] mb-6">
               {dict.hero.eyebrow}
             </span>
 
