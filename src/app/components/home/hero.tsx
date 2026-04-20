@@ -58,18 +58,18 @@ export default function Hero({ locale }: HeroProps) {
           </div>
 
           <div className="space-y-6">
-            <div className="rounded-xl bg-white/8 border border-white/15 backdrop-blur p-8">
+            <div className="rounded-xl border border-[#90B7DB] bg-[#DCE8F4] p-8 shadow-[0_20px_45px_rgba(0,31,77,0.12)]">
               <div className="flex items-start gap-4">
                 <div className="flex-shrink-0">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#4DA6FF]/20 text-[#4DA6FF]">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#C7DCF0] text-[#0052A3]">
                     ✓
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold text-white">
+                  <h3 className="text-lg font-semibold text-[#003366]">
                     {dict.hero.card.title}
                   </h3>
-                  <p className="mt-2 text-sm text-white/70">
+                  <p className="mt-2 text-sm text-[#5A7A99]">
                     {dict.hero.card.focusValue}
                   </p>
                 </div>
@@ -77,22 +77,22 @@ export default function Hero({ locale }: HeroProps) {
             </div>
 
             <div className="grid gap-6 sm:grid-cols-2">
-              <div className="rounded-lg bg-white/5 border border-white/10 p-6">
+              <div className="rounded-lg border border-[#90B7DB] bg-[#DCE8F4] p-6 shadow-[0_18px_36px_rgba(0,31,77,0.1)]">
                 <p className="text-xs font-semibold text-[#4DA6FF] uppercase tracking-wider">
                   {dict.hero.card.planningLabel}
                 </p>
-                <p className="mt-3 text-2xl font-bold text-white">
+                <p className="mt-3 text-2xl font-bold text-[#003366]">
                   {dict.hero.card.planningValue}
                 </p>
               </div>
 
-              <div className="rounded-lg bg-white/5 border border-white/10 p-6">
+              <div className="rounded-lg border border-[#90B7DB] bg-[#DCE8F4] p-6 shadow-[0_18px_36px_rgba(0,31,77,0.1)]">
                 <p className="text-xs font-semibold text-[#4DA6FF] uppercase tracking-wider">
                   {dict.hero.card.supportLabel}
                 </p>
                 <ul className="mt-3 space-y-2">
                   {dict.hero.card.supportItems.slice(0, 2).map((item) => (
-                    <li key={item} className="text-sm text-white/70 flex items-start gap-2">
+                    <li key={item} className="flex items-start gap-2 text-sm text-[#5A7A99]">
                       <span className="text-[#4DA6FF] mt-1">•</span>
                       <span>{item}</span>
                     </li>
@@ -101,11 +101,11 @@ export default function Hero({ locale }: HeroProps) {
               </div>
             </div>
 
-            <div className="rounded-lg bg-gradient-to-br from-[#4DA6FF]/20 to-[#0052A3]/20 border border-[#4DA6FF]/30 p-6">
-              <p className="text-xs font-semibold text-[#B3D9FF] uppercase tracking-wider">
+            <div className="rounded-lg border border-[#8CB3D7] bg-gradient-to-br from-[#DCE8F4] via-[#D2E1EF] to-[#C4D7E9] p-6 shadow-[0_18px_36px_rgba(0,31,77,0.1)]">
+              <p className="text-xs font-semibold text-[#0052A3] uppercase tracking-wider">
                 {dict.hero.card.workStyleLabel}
               </p>
-              <p className="mt-3 text-xl font-semibold text-white">
+              <p className="mt-3 text-xl font-semibold text-[#003366]">
                 {dict.hero.card.workStyleValue}
               </p>
             </div>
